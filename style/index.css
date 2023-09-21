@@ -2,8 +2,12 @@
 @import "owl.carousel.min.css";
 @import "owl.theme.default.min.css";
 
+html {
+    scroll-behavior: smooth;
+  }
 body {
   background: #eaebf6;
+  scroll-behavior: smooth;
 }
 .box_nav {
   width: 1296px;
@@ -20,10 +24,7 @@ body {
   gap: 20px;
   /* justify-content: space-between; */
 }
-.test {
-  height: 70px;
-  background-color: brown;
-}
+
 .navigation_button {
   width: 40px;
   height: 40px;
@@ -57,6 +58,10 @@ body {
   overflow: hidden;
   z-index: 1;
 }
+ .box_btn_link_coin_full img {
+    width: 100%;
+    height: auto;
+  } 
 .background_peach {
   background: #ffe8e8;
 }
@@ -100,4 +105,164 @@ body {
   font-size: 8px;
   padding: 2px;
   z-index: 2;
+}
+.section_coin {
+  display: flex;
+  margin: 0 auto;
+  width: 1296px;
+}
+.box_coin {
+  display: flex;
+  height: 742px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(69, 88, 190, 0.1);
+  padding: 35px 26px 27px 26px;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.container_coin {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+.box_title_coin {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  height: 32px;
+  margin-bottom: 11px;
+}
+.title_coin {
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+.text_coin {
+  color: #999;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23.4px; /* 137.647% */
+}
+.read_more_btn {
+  color: #3d8aff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px; /* 121.429% */
+}
+.box_profit_description {
+  border-radius: 10px;
+  border: 1px solid #999;
+  height: 104px;
+  padding: 11px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.profit_description_text_big {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.profit_description_text_medium {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+}
+.color_grey {
+  color: #444;
+}
+.text_tarif_coin {
+  color: #636775;
+  width: 50%;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 136.364% */
+}
+.box_price_coin {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 53px;
+  margin-bottom: 6px;
+  height: fit-content;
+}
+.box_choice_of_purchase {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.choice_of_purchase {
+  border-radius: 5px;
+  background: #f8f9fc;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px 0 30px;
+  gap: 5px;
+}
+.profit_description_text_small {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px; /* 121.429% */
+  padding: 0;
+}
+.read_more_btn_small {
+  color: #3d8aff;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 125% */
+}
+.box_btn_buy {
+  height: auto;
+  margin-top: 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn_buy {
+  border-radius: 10px;
+  border: 1px solid #23acde;
+  background: #e0e3f5;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn_buy_text {
+  color: #23acde;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 129.412% */
+}
+.btn_buy_subtext {
+  color: #444;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.wh32px {
+  width: 32px;
+  height: 32px;
+}
+.br4px{
+    border-radius: 4px;
 }
