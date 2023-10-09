@@ -5,6 +5,15 @@ $(document).ready(function () {
       loop: true,
       responsive: {
         0: {
+          items: 7.8,
+        },
+        480: {
+          items: 7.8,
+        },
+        768: {
+          items: 11.4,
+        },
+        1400: {
           items: 19,
         },
       },
